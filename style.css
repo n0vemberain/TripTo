@@ -355,7 +355,9 @@ line-height: 26px; /* 162.5% */
     height: 284px;
     margin-left: auto;
     margin-right: auto;
+    
 }
+/* ------------news----------- */
 .news{
     margin-top: 80px;
     display: flex;
@@ -437,6 +439,41 @@ font-weight: 400;
     text-align: center;
 font-size: 2rem;
 font-weight: 800;
+}
+/* Footer */
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    padding-top:100px ;
+    padding-bottom:30px ;
+}
+.footer{
+        margin: 20px 135px 135px 100px;
+}
+.icon-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #5A5A5D;
+font-size: 0.9rem;
+font-weight: 400;
+}
+.logos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.copy{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #131318;
+font-size: 0.9rem;
+font-weight: 300;
 }
 
 
@@ -587,5 +624,15 @@ font-weight: 800;
 .why-us-3{
     width: auto;
     height: auto;
+}
+.news{
+    flex-direction: column;
+}
+.news-letter-2 img{
+    width: 551px;
+    height: 430px;
+}
+.save{
+    right: 130px;
 }
 }
